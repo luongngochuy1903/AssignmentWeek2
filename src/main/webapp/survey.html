@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Murach Testing</title>
+</head>
+<body>
+ <form action="survey" method="post">
+ 	<div style="display: flex; justify-content: center;">
+ 		<img src="images/murachlogo.jpg" alt="murach logo">
+ 		<h1 style="color: rgb(198, 99, 71); margin-left: 10px; margin-top: 30px; font-size:32px">SURVEY FORM</h1>
+ 	</div>
+ 	<br>
+ 	<div style= "background-color: rgb(255, 255, 234)">
+ 		<p style="margin-left: 30px; color: red"> <i>If you have a moment, we'd appreciate it if you would fill out this survey.</i><p>
+ 		<br>
+ 		<h2 style="text-align: center"><b>YOUR INFORMATION</b></h2>
+ 		<br>
+ 		<table>
+		  <tr>
+		    <td><label>First Name</label></td>
+		    <td><input type="text" name="firstName" required></td>
+		  </tr>
+		  <tr>
+		    <td><label>Last Name</label></td>
+		    <td><input type="text" name="lastName" required></td>
+		  </tr>
+		  <tr>
+		    <td><label>Email</label></td>
+		    <td><input type="email" name="email" required></td>
+		  </tr>
+		  <tr>
+		    <td><label>Birth Date</label></td>
+		    <td><input type="date" name="birthDate"></td>
+		  </tr>
+		</table>
+        <h3>How did you hear about us?</h3>
+        <p><input type=radio name="heardFrom" value="Social Media"> Social Media
+            <input type=radio name="heardFrom" value="Search Engine" checked>Search engine
+           <input type=radio name="heardFrom" value="Friend">Word of mouth
+           <input type=radio name="heardFrom" value="Other">Other</p>
+        <h3>Would you like to receive announcements about new CDs and special offers?</h3>
+            <p><input type="checkbox" name="wantsUpdates">YES, I'd like that.</p>
+                <input type="checkbox" name="emailOK">YES, please send me email announcements.</p>
+        <br>
+        <input type=submit value="Send">
+ 	</div>
+ 	<br>
+ 	<br>
+ 	<br>
+ 	<div>
+ 		<p><i>Please contact me: </i> <a href="luongngochuy1903@gmail.com">luongngochuy1903@gmail.com</a><p>
+ 	</div>
+
+</body>
+</html>
